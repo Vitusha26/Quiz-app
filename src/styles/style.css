@@ -41,15 +41,19 @@ body{
   font-size: 20px;
   width: 170px;
   height: 50px;
-  background: red;
+  background: green;
   margin: 20px 0 0 50px;
 }
+
 .btn2{
   font-size: 20px;
   width: 170px;
   height: 50px;
   background: yellow;
   margin: 20px 0 0 50px;
+}
+.btn2:focus{
+  background-color: red;
 }
 .btn3{
   font-size: 20px;
@@ -58,6 +62,9 @@ body{
   background: blue;
   margin: 20px 0 0 50px;
 }
+.btn3:focus{
+  background-color: red;
+}
 .btn4{
   font-size: 20px;
   width: 170px;
@@ -65,12 +72,25 @@ body{
   background: gray;
   margin: 20px 0 0 50px;
 }
+.btn4:focus{
+  background-color: red;
+}
 .btn5{
   font-size: 20px;
   width: 170px;
   height: 50px;
   background: white;
   margin: 20px 0 0 50px;
+}
+.btn6{
+  font-size: 20px;
+  width: 170px;
+  height: 50px;
+  background: white;
+  margin: 20px 0 0 50px;
+}
+.btn6:focus{
+  background-color: red;
 }
 
 @media (min-width: 270px) and (max-width:520px) {

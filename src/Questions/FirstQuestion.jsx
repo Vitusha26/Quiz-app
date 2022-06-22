@@ -7,7 +7,7 @@ export default function FirstQuestion(props) {
   }
   return (
     <div>
-    <h2 className='question'>Which color is red?</h2>
+    <h2 className='question'>Which color is green?</h2>
       <div>
       <button className='btn1' onClick={changeFirstQuestion}></button>
         <button className='btn2' onClick={props.wrong}></button>
